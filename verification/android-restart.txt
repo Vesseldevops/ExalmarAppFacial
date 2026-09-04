@@ -1,0 +1,9 @@
+PASS Android ONNX + bitmap + EXIF: real vector
+PASS Records survive process restart
+PASS SQLite reopen retains both records
+PASS Duplicate ID rejected without replacement
+PASS Exactly three columns
+PASS Stored blob decrypts using Android SecureStorage key
+PASS Stored blob decrypts using Android SecureStorage key
+PASS Processing photos removed from cache
+COMPLETE

@@ -1,0 +1,19 @@
+PASS Real model: 128 normalized values
+PASS Same capture: deterministic embedding
+PASS Small lighting change: cosine 0.9965
+PASS No face returns retry feedback without throwing
+PASS Low-resolution photo returns feedback without throwing
+PASS Small face requests moving closer
+PASS Clipped face requests moving back, not closer
+PASS Face on image boundary is accepted
+PASS Two faces return retry feedback without throwing
+PASS Encrypted vector round trip
+PASS Unique random nonce per save
+PASS Cannot swap encrypted vector to another ID
+PASS Cannot swap encrypted vector to another username
+PASS Wrong key rejected
+PASS Tampering rejected
+PASS Zero vector rejected
+PASS Wrong dimensions rejected
+PASS Nonfinite vector rejected
+Verification finished. No biometric vectors printed or persisted.

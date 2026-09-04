@@ -1,0 +1,7 @@
+PASS Windows bitmap + EXIF + real ONNX vector
+PASS two records saved to desktop SQLite
+PASS SQLite reopen retains records
+PASS Duplicate ID rejected
+PASS Exactly three columns
+PASS Windows SecureStorage key decrypts stored vector
+COMPLETE
